@@ -6,7 +6,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <OutputType>Exe</OutputType>
     <RootNamespace>MP1_TP1</RootNamespace>
-    <AssemblyName>MP1_TP1</AssemblyName>
+    <AssemblyName>MP1_TP1_16_04</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <TargetFrameworkProfile>Client</TargetFrameworkProfile>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -45,11 +45,21 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Alumno.cs" />
     <Compile Include="Cola.cs" />
+    <Compile Include="ColeccionMultiple.cs" />
+    <Compile Include="FabricaComparables.cs" />
+    <Compile Include="FabricaDeAlumnos.cs" />
+    <Compile Include="FabricaDeNumeros.cs" />
+    <Compile Include="GeneradorDatosAleatorios.cs" />
     <Compile Include="IColeccionable.cs" />
     <Compile Include="IComparable.cs" />
     <Compile Include="Numero.cs" />
+    <Compile Include="Observado.cs" />
+    <Compile Include="Observador.cs" />
+    <Compile Include="Persona.cs" />
     <Compile Include="Pila.cs" />
+    <Compile Include="Profesor.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

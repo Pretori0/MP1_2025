@@ -8,6 +8,7 @@
  */
 using System;
 
+
 namespace MP1_TP1
 {
 	/// <summary>
@@ -21,7 +22,10 @@ namespace MP1_TP1
 				this.valor = v;
 			}
 			
-			public int getValor {get;set;}
+			public int getValor {
+				get{return valor;}
+				set{this.valor = value;}
+			}
 				
 			
 			

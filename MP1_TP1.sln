@@ -2,7 +2,7 @@
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 # SharpDevelop 4.4
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MP1_TP1", "MP1_TP1\MP1_TP1.csproj", "{6B6E6513-8C40-463E-A61A-588E386A99ED}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MP1_TP1_16_04", "MP1_TP1\MP1_TP1_16_04.csproj", "{6B6E6513-8C40-463E-A61A-588E386A99ED}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

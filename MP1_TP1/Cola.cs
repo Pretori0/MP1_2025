@@ -79,14 +79,5 @@ namespace MP1_TP1
             return minimo;
         }
         
-       public void llenar()
-        {
-            Random rnd = new Random();
-            for (int i = 0; i < 20; i++)
-            {
-                Numero comparable = new Numero(rnd.Next(30, 50));
-                this.agregar(comparable);
-            }
-        }
-	}
+  	}
 }
