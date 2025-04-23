@@ -38,18 +38,25 @@ namespace MP1_TP1
 		public int getPromedio{
 			get{return this.promedio;}
 		}
-		/*
-		public bool sosIgual(IComparable comparable){
-			base.sosIgual(comparable);
+		
+		public override bool sosIgual(IComparable comparable){
+			if( this.getLegajo == ((Numero)comparable).getValor){
+				return true;
+			}
+			return false;
 		}
 		public override bool sosMenor(IComparable comparable){
-			return this.getDni > ((Numero)comparable).getValor;
+			if (this.getLegajo > ((Alumno)comparable).getLegajo){
+				return true;
+			}
+			return false;
 		}
-		public override bool sosMayor(IComparable comparable){
-			return this.getDni < ((Numero)comparable).getValor;
-		
+		public bool sosMayor(IComparable comparable){
+			if(this.getLegajo < ((Alumno)comparable).getLegajo){
+				return true;
+			}
+			return false;
 		}
-		*/
 		
 	}
 		
