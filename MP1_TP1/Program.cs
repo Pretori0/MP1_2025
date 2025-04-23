@@ -65,8 +65,8 @@ namespace MP1_TP1
 		public static void informar(IColeccionable coleccionable)
         {
 			Console.WriteLine(coleccionable.cuantos());
-			Console.WriteLine(((Alumno)coleccionable.minimo()).getValor);
-			Console.WriteLine(((Alumno)coleccionable.maximo()).getValor);
+			Console.WriteLine(((Alumno)coleccionable.minimo()).getDni);
+			Console.WriteLine(((Alumno)coleccionable.maximo()).getDni);
             Console.WriteLine("Ingrese numero");
             
             int ver = Convert.ToInt32(Console.ReadLine());

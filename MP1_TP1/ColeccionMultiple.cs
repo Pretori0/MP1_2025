@@ -29,13 +29,13 @@ namespace MP1_TP1
 			return this.pila.cuantos() + this.cola.cuantos();
 		}
 		public IComparable minimo(){
-			if(((Persona)this.cola.minimo()).getValor < ((Persona)this.pila.minimo()).getValor){
+			if(((Persona)this.cola.minimo()).getDni < ((Persona)this.pila.minimo()).getDni){
 				return this.cola.minimo();
 			}
 			return this.pila.minimo();
 		}
 		public IComparable maximo(){
-			if(((Persona)this.cola.maximo()).getValor < ((Persona)this.pila.maximo()).getValor){
+			if(((Persona)this.cola.maximo()).getDni < ((Persona)this.pila.maximo()).getDni){
 				return this.pila.maximo();
 			}
 			return this.cola.maximo();
