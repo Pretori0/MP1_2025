@@ -65,20 +65,20 @@ namespace MP1_TP1
 		public static void informar(IColeccionable coleccionable)
         {
 			Console.WriteLine(coleccionable.cuantos());
-			Console.WriteLine(((Alumno)coleccionable.minimo()).getDni);
-			Console.WriteLine(((Alumno)coleccionable.maximo()).getDni);
-            Console.WriteLine("Ingrese numero");
+			Console.WriteLine(((Alumno)coleccionable.minimo()).getLegajo);
+			Console.WriteLine(((Alumno)coleccionable.maximo()).getLegajo);
+            Console.WriteLine("Ingrese numero de Legajo");
             
             int ver = Convert.ToInt32(Console.ReadLine());
-            IComparable comp = new Numero(ver);
+            IComparable alumnoAux = new Alumno("alumnoaux",-100000,ver,10);
             
-            if (coleccionable.contiene(comp))
+            if (coleccionable.contiene(alumnoAux))
             {
-                Console.WriteLine("El numero esta en la coleccion");
+                Console.WriteLine("El alumno esta en la coleccion");
             }
             else
             {
-                Console.WriteLine("el elemento no esta en la coleccion");
+                Console.WriteLine("el alumno no esta en la coleccion");
             }
         }
 		

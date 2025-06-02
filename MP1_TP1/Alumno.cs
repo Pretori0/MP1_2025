@@ -40,7 +40,7 @@ namespace MP1_TP1
 		}
 		
 		public override bool sosIgual(IComparable comparable){
-			if( this.getLegajo == ((Numero)comparable).getValor){
+			if( this.getLegajo == ((Alumno)comparable).getLegajo){
 				return true;
 			}
 			return false;
@@ -51,7 +51,7 @@ namespace MP1_TP1
 			}
 			return false;
 		}
-		public bool sosMayor(IComparable comparable){
+		public override bool sosMayor(IComparable comparable){
 			if(this.getLegajo < ((Alumno)comparable).getLegajo){
 				return true;
 			}
